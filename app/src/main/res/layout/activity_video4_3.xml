@@ -1,0 +1,114 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--录像显示界面-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rlyt_camera"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <SurfaceView
+            android:id="@+id/cameraView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <ImageView
+            android:id="@+id/custom_camera_show"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:contentDescription="@null"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:background="@color/app_dark_gray"
+            android:src="@drawable/ic_default"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="20dp"
+            android:id="@+id/iv_play"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:src="@drawable/btn_ic_play_blue"
+            />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_camera_tools_width"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:alpha="0.6"
+        android:background="@color/app_black"
+        android:orientation="vertical">
+
+        <!--录像按钮-->
+        <RelativeLayout
+            android:id="@+id/record_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <!--开始停止-->
+            <ImageView
+                android:id="@+id/record_button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:contentDescription="@null"
+                android:padding="10dp"
+                android:src="@drawable/btn_ic_recording"/>
+
+            <!--时间-->
+            <TextView
+                android:id="@+id/tv_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:padding="10dp"
+                android:text="3:00"
+                android:textColor="#ff0000"
+                android:textSize="14sp"/>
+        </RelativeLayout>
+
+        <!--使用、重录按钮-->
+        <RelativeLayout
+            android:id="@+id/finish_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/use_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="60dp"
+                android:padding="10dp"
+                android:text="使用"
+                android:textColor="@color/selector_common_white_bule_txt_color"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/restart_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:padding="10dp"
+                android:text="重录"
+                android:textColor="@color/selector_common_white_bule_txt_color"
+                android:textSize="14sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

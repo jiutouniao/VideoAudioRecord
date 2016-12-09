@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VideoAudioRecord</string>
+
+    <string name="mediaplayer_view_audio_loading_txt">正在加载中...</string>
+    <string name="closed">关闭</string>
+
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/common_layout_score_layout"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:layout_alignParentBottom="true"
+                android:paddingLeft="20dp">
+
+    <TextView
+        android:id="@+id/common_layout_score_tv"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/common_layout_score_tv_bg"
+        android:gravity="center"
+        android:textColor="@color/task_toolbar"
+        android:textSize="15sp"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:id="@+id/common_layout_comment_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/common_layout_score_tv"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="老师评语:"
+            android:textColor="#99FFFFFF"
+            android:textSize="21sp"/>
+
+        <TextView
+            android:id="@+id/common_layout_comment_tv"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/app_white"
+            android:textSize="21sp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/common_layout_like_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/btn_nice"
+        android:visibility="gone"/>
+
+</RelativeLayout>

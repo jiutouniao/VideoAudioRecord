@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+
+    <dimen name="custom_camera_tools_width">80dp</dimen>
+    <!-- 视频播放器 start -->
+    <dimen name="mediaplayer_view_videocontrol_height">40dp</dimen>
+    <dimen name="mediaplayer_view_btn_play_pause_width">30dp</dimen>
+    <dimen name="mediaplayer_view_btn_play_pause_height">30dp</dimen>
+    <dimen name="mediaplayer_view_btn_play_pause_margin">10dp</dimen>
+    <dimen name="mediaplayer_view_txt_current_time_width">80dp</dimen>
+    <dimen name="mediaplayer_view_txt_current_time_textsize">12sp</dimen>
+    <dimen name="mediaplayer_view_audio_loading_textsize">20sp</dimen>
+    <dimen name="flip_new_ques_title_padding">13dp</dimen>
+    <dimen name="flip_new_ques_title_textsize">15sp</dimen>
+    <dimen name="flip_new_ques_scroll_height">518dp</dimen>
+    <dimen name="login_img_marginRight">8dp</dimen>
+    <!-- 视频播放器  end -->
+</resources>

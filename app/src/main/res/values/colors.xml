@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="app_dark_gray">#A9A9A9</color>
+    <color name="app_white">#FFFFFF</color>
+
+
+    <!-- Mediaplayer start -->
+    <color name="mediaplayer_mask_background">#7f000000</color>
+    <color name="mediaplayer_noamal_background">#ff000000</color>
+    <color name="filp_detail_gray">#F3F3F3</color>
+    <color name="homework_detail_result_sorce_text_color">#F13B25</color>
+    <color name="item_homework_detail_result_comment_title_color">#BCBCBC</color>
+    <color name="answer_time_text_color">#CCCED4</color>
+    <color name="item_flip_ques_same_text_color">#F57004</color>
+    <color name="item_flip_ques_like_text_color">#F57004</color>
+    <color name="item_flip_ques_gray_text_color">#B4B4B4</color>
+    <color name="app_black">#000000</color>
+    <color name="item_classmgt_my_class_num_color">#1D1D26</color>
+    <color name="item_classmgt_my_class_text_color">#A8A8A8</color>
+    <color name="lecture_color_another_blue">#00A6F3</color>
+    <color name="common_title_bar_backgroundcolor">#202835</color>
+    <!-- Mediaplayer end -->
+
+    <color name="task_toolbar">#4178be</color>
+
+    <color name="item_sd_wrong_ques_type_bg_select">#3BB1F2</color>
+    <color name="item_sd_wrong_ques_type_text_select">#FFFFFF</color>
+    <color name="item_sd_wrong_ques_type_text_normal">#3BB1F2</color>
+    <color name="app_bg_color">#F0F0F0</color>
+    <color name="homework_detail_user_title_color">#88929B</color>
+    <color name="item_homework_detail_context_text_color">#384A58</color>
+    <color name="item_homework_detail_status_context_color">#88929b</color>
+    <color name="black">#000</color>
+</resources>
